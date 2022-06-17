@@ -32,15 +32,21 @@ int main()
 	removel(linkedList, 1);
 	printl(linkedList);
 
-	//printf("%d\n", delete (linkedList));
-	//printf("%d\n", detectCycledList(linkedList));
+	printf("%d\n", detectCycledList(linkedList));
+
+	printf("%d\n", delete (linkedList));
+
 }
 
 struct _node *create()
 {
 	struct _node *head = malloc(sizeof(struct _node *));
-	head->value = 0;
-	head->next = NULL;
+	if(head != NULL)
+	{
+		head->value = 0;
+		head->next = NULL;
+	}
+	return head;
 }
 
 /*
@@ -126,13 +132,17 @@ void printl(struct _node *list)
 
 int detectCycledList(struct _node * list)
 {
-	struct _node *_browse1 = list;
-	struct _node *_browse2 = _browse1;
+	struct _node *_browse1 = list->next;
+	struct _node *_browse2 = list;
 	while (_browse1->next != NULL)
 	{
 		while(_browse2->next != _browse1)
 		{
-			if (_browse1->next == _browse2)	return 1;
+			if (_browse1->next == _browse2)
+			{
+				printf("cycle at %d\n", _browse1->value);
+				return 1;
+			}
 			_browse2 = _browse2->next;
 		}
 		_browse1 = _browse1->next;

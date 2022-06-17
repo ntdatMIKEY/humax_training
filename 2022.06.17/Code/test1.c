@@ -8,6 +8,7 @@
 #define BIT5 0x20
 #define BIT6 0x40
 #define BIT7 0x80
+
 union _register
 {
 	struct _bits
@@ -23,6 +24,7 @@ union _register
 	} bits;
 	unsigned char value;
 };
+
 void setVaue(union _register *reg, unsigned char bit, unsigned char value)
 {
 	reg->value = value ? reg->value | (1 << bit) : reg->value & ~(1 << bit);
@@ -33,10 +35,10 @@ int main()
 	union _register REG_A;
 	printf("%d\n", REG_A.value);
 	// your code goes here to test implemented function
-	setVaue(&REG_A, BIT1, 1);
+	setVaue(&REG_A, BIT2, 1);
 	printf("%d\n", REG_A.value);
 
-	setVaue(&REG_A, BIT1, 0);
+	setVaue(&REG_A, BIT2, 0);
 	printf("%d\n", REG_A.value);
 
 	return 0;
