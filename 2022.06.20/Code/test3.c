@@ -19,6 +19,7 @@ struct _command* initCommandList()
 	struct _command* _head = malloc(sizeof(struct _command*));
 	_head->callback = NULL;
 	_head->next = NULL;
+	return _head;
 }
 
 void insertCommand(struct _command * list, int (*callback)(int))
@@ -46,13 +47,11 @@ int calculate(int a, struct _command * orderOfFunctions)
 
 	//ignore the head of list
 	struct _command* _browse = orderOfFunctions->next;
-	int lastA = a;
 
 	//browse to the last node
 	while(_browse != NULL)
 	{
-		a = _browse->callback(lastA);
-		lastA = a;
+		a = _browse->callback(a);
 		_browse = _browse->next;
 	}
 	return a;	
@@ -67,8 +66,8 @@ int main()
 	insertCommand(orderOfFunctions, mul3);
 	insertCommand(orderOfFunctions, div2);	
 	
-	int res = calculate(1001, orderOfFunctions);
-	printf("%d", res);
+	int res = calculate(10, orderOfFunctions);
+	printf("%d\n", res);
 
 	return 0;
 }

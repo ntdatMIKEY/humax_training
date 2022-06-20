@@ -18,6 +18,13 @@ int main()
 {
 	int i = 10;
 	// your code goes here
-	fooptr=foo(100); //assign fooptr = myfoo
-	fooptr(i); //now fooptr(i) = myfoo(i);
+	//one level access
+	fooptr = myfoo;
+	fooptr(i);
+
+	//two level access
+	fooptr = foo(100); // assign fooptr = myfoo
+	fooptr(i);				 // now fooptr(i) = myfoo(i);
+
+	return 0;
 }

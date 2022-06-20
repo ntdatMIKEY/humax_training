@@ -5,13 +5,20 @@
 int main(int argc, char *argv[])
 {
 	int (*fp)(char *);
+
+
 	if (argc != 2)
 	{
 		printf("insert 0xaddress\n");
 		exit(-1);
 	}
+
 	// read input address
-	// assign it to fp
+	// assign it to fp	
+
+	printf("%p\n", &main);
+	printf("%p\n", &puts);
+
 	// ok, check the pointer
 	if ((int (*)(char *)) & puts == fp)
 	{
@@ -21,5 +28,6 @@ int main(int argc, char *argv[])
 	{
 		exit(-1);
 	}
-	eit(1);
+	exit(1);
 }
+

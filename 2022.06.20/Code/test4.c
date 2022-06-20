@@ -10,6 +10,8 @@ int main()
 	scanf("%8s", &buf);
 	printf("buf: %s\n", buf);
 	printf("val: 0x%08x\n", val);
+
+
 	if (val == 0xdeadbeef) /*** <== how to write data to val ??? ***/
 		printf("OK! YOU WIN!!!!\n");
 	else
