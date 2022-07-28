@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>SampleView.qml</file>
+        <file>GridBox.qml</file>
+        <file>ShapeMenu.qml</file>
+        <file>Product.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tutorial_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Training/2022.07.11.QML_Week1/tutorial",
+	"CMAKE_SOURCE_DIR" : "D:/Training/2022.07.11.QML_Week1/tutorial",
+	"INCLUDE_DIR" : "D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tutorial_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/Training/2022.07.11.QML_Week1/tutorial/Cell.qml",
+		"D:/Training/2022.07.11.QML_Week1/tutorial/main.qml"
+	],
+	"LOCK_FILE" : "D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/tutorial_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "D:/Setup/Qt_setup/5.15.2/mingw81_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/tutorial_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/Training/2022.07.11.QML_Week1/tutorial/qml.qrc",
+	"VERBOSITY" : 0
+}

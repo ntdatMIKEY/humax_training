@@ -1,0 +1,5 @@
+D:/Training/2022.07.11.QML_Week1/Day3/build-example6-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/example6.dir
+D:/Training/2022.07.11.QML_Week1/Day3/build-example6-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Training/2022.07.11.QML_Week1/Day3/build-example6-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Training/2022.07.11.QML_Week1/Day3/build-example6-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/example6_autogen_timestamp_deps.dir
+D:/Training/2022.07.11.QML_Week1/Day3/build-example6-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/example6_autogen.dir

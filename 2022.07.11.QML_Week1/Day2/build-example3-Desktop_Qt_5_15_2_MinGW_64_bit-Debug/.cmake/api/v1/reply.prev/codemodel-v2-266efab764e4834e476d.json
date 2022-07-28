@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example3-Debug-36c419a237e6285a502b.json",
+					"name" : "example3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example3_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example3_autogen-Debug-28a77a35dc0bd753f355.json",
+					"name" : "example3_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example3_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example3_autogen_timestamp_deps-Debug-29d53eeee62c87cd99e4.json",
+					"name" : "example3_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Training/2022.07.11.QML_Week1/build-example3-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+		"source" : "D:/Training/2022.07.11.QML_Week1/example3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

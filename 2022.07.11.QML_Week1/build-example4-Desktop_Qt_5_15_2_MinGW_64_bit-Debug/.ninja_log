@@ -1,0 +1,16 @@
+# ninja log v5
+3	1173	6799196356040208	example4_autogen/timestamp	38a5ca2334289c15
+3	1173	6799196356040208	example4_autogen/mocs_compilation.cpp	38a5ca2334289c15
+3	1173	6799196356040208	D:/Training/2022.07.11.QML_Week1/build-example4-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/example4_autogen/timestamp	38a5ca2334289c15
+3	1173	6799196356040208	D:/Training/2022.07.11.QML_Week1/build-example4-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/example4_autogen/mocs_compilation.cpp	38a5ca2334289c15
+1175	1290	6799196359469730	example4_autogen/EWIEGA46WW/qrc_qml.cpp	315e2ff0f2ab1ab0
+1175	1290	6799196359469730	D:/Training/2022.07.11.QML_Week1/build-example4-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/example4_autogen/EWIEGA46WW/qrc_qml.cpp	315e2ff0f2ab1ab0
+1308	1507	6799196361649446	CMakeFiles/example4.dir/example4_autogen/EWIEGA46WW/qrc_qml.cpp.obj	904dd3b66d9484f1
+1315	3591	6799196382426631	CMakeFiles/example4.dir/ex4.cpp.obj	aa754fa21598fb8a
+1291	3729	6799196383816494	CMakeFiles/example4.dir/example4_autogen/mocs_compilation.cpp.obj	ce0849b9e5e924da
+1301	3845	6799196385006265	CMakeFiles/example4.dir/main.cpp.obj	2b368cca05c4db1a
+3847	4281	6799196389325788	example4.exe	6292179d8e303df0
+10	174	6804246029053160	example4_autogen/EWIEGA46WW/qrc_qml.cpp	315e2ff0f2ab1ab0
+10	174	6804246029053160	D:/Training/2022.07.11.QML_Week1/build-example4-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/example4_autogen/EWIEGA46WW/qrc_qml.cpp	315e2ff0f2ab1ab0
+196	514	6804246032443025	CMakeFiles/example4.dir/example4_autogen/EWIEGA46WW/qrc_qml.cpp.obj	904dd3b66d9484f1
+514	1052	6804246037777524	example4.exe	6292179d8e303df0

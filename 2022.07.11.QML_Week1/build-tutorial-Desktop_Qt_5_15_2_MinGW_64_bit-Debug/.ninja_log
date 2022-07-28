@@ -1,0 +1,14 @@
+# ninja log v5
+2	379	6793856920188440	tutorial_autogen/timestamp	89839697b5e2c376
+2	379	6793856920188440	tutorial_autogen/mocs_compilation.cpp	89839697b5e2c376
+2	379	6793856920188440	D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tutorial_autogen/timestamp	89839697b5e2c376
+2	379	6793856920188440	D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tutorial_autogen/mocs_compilation.cpp	89839697b5e2c376
+380	460	6793016581950660	D:/Training/2022.07.11.QML_Week1/tutorial/tutorial_en_US.ts	8ed530ec12ab765d
+380	460	6793016581950660	CMakeFiles/tutorial_en_US.ts_lst_file	8ed530ec12ab765d
+380	460	6793016581950660	D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/tutorial_en_US.ts_lst_file	8ed530ec12ab765d
+387	534	6793856922828217	tutorial_autogen/EWIEGA46WW/qrc_qml.cpp	cf17d8343d3a7b55
+387	534	6793856922828217	D:/Training/2022.07.11.QML_Week1/build-tutorial-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tutorial_autogen/EWIEGA46WW/qrc_qml.cpp	cf17d8343d3a7b55
+534	690	6793856924378108	CMakeFiles/tutorial.dir/tutorial_autogen/mocs_compilation.cpp.obj	7e1d5eef04931d29
+548	713	6793856924618089	CMakeFiles/tutorial.dir/tutorial_autogen/EWIEGA46WW/qrc_qml.cpp.obj	f74c6f1f6c1c021f
+542	2347	6793856940839173	CMakeFiles/tutorial.dir/main.cpp.obj	ba5887313a5a0d86
+2353	2668	6793856944069350	tutorial.exe	728df41c42da5ed1

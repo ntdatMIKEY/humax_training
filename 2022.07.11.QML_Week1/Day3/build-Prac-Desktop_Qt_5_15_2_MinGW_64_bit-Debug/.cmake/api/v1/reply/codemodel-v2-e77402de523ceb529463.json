@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Prac",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Prac::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Prac-Debug-6516ce5dc37bac13d221.json",
+					"name" : "Prac",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Prac_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Prac_autogen-Debug-ff33ec7a87f8331ff18c.json",
+					"name" : "Prac_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Prac_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Prac_autogen_timestamp_deps-Debug-6dde7ca5edf16bc89d17.json",
+					"name" : "Prac_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Training/2022.07.11.QML_Week1/Day3/build-Prac-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+		"source" : "D:/Training/2022.07.11.QML_Week1/Day3/Prac"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
